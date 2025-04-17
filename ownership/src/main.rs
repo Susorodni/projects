@@ -1,4 +1,9 @@
+mod slices;
+
 fn main() {
+    let sussybakka = slices::slices("stuff boi");
+    println!("Sussy bakka is: {}", sussybakka);
+
     let guy = String::from("bruh");
     println!("{guy}");
     println!("{guy}");
@@ -32,7 +37,7 @@ fn main() {
 
     println!("{}, so we got, {hello}, {world}", first_word(&s));
 
-    let mut sus = "amogus".to_own;
+    let mut sus = "amogus".to_owned();
 
     let mut thingy = String::from("asdasdasd");
 
