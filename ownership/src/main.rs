@@ -1,7 +1,10 @@
 mod slices;
 
 fn main() {
+<<<<<<< HEAD
     // cannot make a pointer to a stack allocated variable
+=======
+>>>>>>> origin/main
     let sussybakka = slices::slices("stuff boi");
     println!("Sussy bakka is: {}", sussybakka);
 

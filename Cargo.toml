@@ -1,3 +1,7 @@
 [workspace]
 resolver = "2"
+<<<<<<< HEAD
 members = [ "branches","data_types", "enums", "functions","guessing_game", "matching", "ownership", "rectangles", "structures", "variables"]
+=======
+members = [ "branches","data_types", "functions","guessing_game", "ownership", "rectangles", "structures", "variables"]
+>>>>>>> origin/main
