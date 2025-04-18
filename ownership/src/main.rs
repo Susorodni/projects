@@ -1,6 +1,7 @@
 mod slices;
 
 fn main() {
+    // cannot make a pointer to a stack allocated variable
     let sussybakka = slices::slices("stuff boi");
     println!("Sussy bakka is: {}", sussybakka);
 
@@ -24,6 +25,8 @@ fn main() {
 
     let sokay = s2.clone();
     println!("{sokay}");
+
+    
 
     let amogus = String::from("Stuff");
     take_ownership(&amogus);
